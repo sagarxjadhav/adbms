@@ -15,7 +15,7 @@ db. Students. update ({$where: function ( ){return(this.Student_id=="101E")}},{$
 
 
 
-            🙂1.🙂
+            🙂1s🙂
 Implement Map reduces operation using MongoDB.
 Problem:A king want to count the total population in his country. He can send
 one person to count the population. The assigned person will visit every city
@@ -41,7 +41,7 @@ WriteResult({ "nInserted" : 1 })
 
 
 
-                  🙂2.🙂
+                  🙂2s🙂
 Implement aggregation and indexing with following example using MongoDB
 Example: In this Assignment, we are creating Student Database. Which contain
 the information ofstudent_name,student_rollno,status of a student. Here status is
@@ -142,7 +142,7 @@ $match:{sum:{$lte: 7}}})
 >db.Student.aggregate({$group:{_id:"$Status",sum:{$sum:"$Stud_Roll_No"}}},
 {$match:{sum:{$gte: 7}}}){ "_id" : "Failed", "sum" : 9 }
 
-              🙂3.🙂
+              🙂3s🙂
 Implement queries using MongoDB
 Teacher_idTeacher_NameDept_Name,SalaryStatus
 Pic001RaviIT30000A
@@ -320,7 +320,7 @@ h. Delete teacher of teacher_id=Pic001
 "Teacher_Name" : "Akshay", "Dept_Name" : "Comp", "Salary" : 35000, "Status" : "N"
 }
 
-                🙂4.🙂
+                🙂4s🙂
 Student_idStudent_NameDept_Name,FeesResult
 101ERaviIT30000Pass
 102EMangeshIT20000Pass
@@ -373,7 +373,7 @@ WriteResult({ "nInserted" : 1 })
 { "_id" : ObjectId("6365075025d332a3c95283bd"), "Student_id" : "106A",
 "Student_Name" : "Ryan", "Dept_Name" : "IT", "Fees" : 40000, "Result" : "Pass" }
 
-                  🙂5.🙂
+                  🙂5s🙂
 Implement aggregation and indexing (all three) with example using MongoDB
 Indexing:
 > db.Student.find().pretty();
@@ -587,7 +587,7 @@ WriteResult({ "nInserted" : 1 })
 { "_id" : "Comp", "sum" : 35000 }
 { "_id" : "Civil", "sum" : 30000 }
 
-                        🙂6.🙂
+                        🙂6s🙂
 Execute at least 10 queries on following database that demonstrates following
 querying
 techniques:
@@ -702,7 +702,7 @@ WriteResult({ "nInserted" : 1 })
 { "_id" : ObjectId("6361512da2e9accf7753dc07"), "Book_Name" : "Aishwarya",
 "Author" : "ABCDE", "Price" : 550, "No_of_Pages" : 200 }
 
-                      🙂7.🙂
+                      🙂7s🙂
 Execute at least 10 queries on any suitable MongoDB database that demonstrates
 following:
 Mobile_Specs(Mobile_Name,RAM,Price,Camera)
@@ -812,7 +812,7 @@ ObjectId("63650b9525d332a3c95283c6")
 }
 
 
-                🙂9.🙂
+                🙂9s🙂
 a. Implement Map reduces operation using MongoDB.
 Problem: College student data (FE,SE,TE,BE)
 > db.createCollection("Students")
@@ -850,7 +850,7 @@ Pending_Fees){return
 { "_id" : "TE", "value" : 70000 }
 { "_id" : "BE", "value" : 120000 }
 
-                🙂10.🙂
+                🙂10s🙂
 Consider the following database:
 Employee (emp_no, name, skill, pay rate)
 Insert one document at a time
